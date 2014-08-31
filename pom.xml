@@ -22,9 +22,9 @@
             <artifactId>tomcat7-maven-plugin</artifactId>
             <version>2.0</version>
             <configuration>
-                <url>http://localhost:8080/manager/text</url>
+                <url>http://localhost:8080</url>
                 <server>tomcat</server>
-                <path>/</path>
+                <path>/gmn</path>
             </configuration>
         </plugin>
     </plugins>
